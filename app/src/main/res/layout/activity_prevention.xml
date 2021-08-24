@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prevention"
+    android:background="@color/Green">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prevention"
+        android:textAlignment="center"
+        android:textSize="45dp"
+        android:layout_marginTop="47dp"
+        android:gravity="center_horizontal" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="323dp"
+            android:textSize="20dp"
+            android:text="1. Cover Your face while sneezing.\n2. Always wear mask.\n
+3.Don't go out unnecceserly.\n
+4. If you feel unwell stay at home.\n
+5. Seek medical attention."
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/prevention"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal" />
+
+
+</RelativeLayout>

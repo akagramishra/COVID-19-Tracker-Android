@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.covid.covid_19tracker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Notification"
+            android:label="Notification"
+            android:parentActivityName=".Notification" />
+        <activity
+            android:name=".Logout"
+            android:label="Profile"
+            android:parentActivityName=".Logout" />
+        <activity
+            android:name=".Register"
+            android:label="Register" />
+        <activity
+            android:name=".Login"
+            android:label="Login" />
+        <activity android:name=".wifi" />
+        <activity
+            android:name=".World"
+            android:label="Cases World"
+            android:parentActivityName=".World" />
+        <activity
+            android:name=".India"
+            android:label="Cases India"
+            android:parentActivityName=".India" />
+        <activity
+            android:name=".impnews"
+            android:label="Imp/News"
+            android:parentActivityName=".impnews" />
+        <activity
+            android:name=".AboutApp"
+            android:label="About App"
+            android:parentActivityName=".AboutApp" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".Settings" />
+        <activity
+            android:name=".Prevention"
+            android:label="Prevention"
+            android:parentActivityName=".Prevention" />
+        <activity
+            android:name=".Corona"
+            android:label="About Corona"
+            android:parentActivityName=".Corona" />
+        <activity
+            android:name=".About_id"
+            android:label="About-Us"
+            android:parentActivityName=".About_id" />
+        <activity android:name=".Splash_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_noti_name" />
+        <!--
+       <!- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+    </application>
+
+</manifest>

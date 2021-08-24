@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Covid-19 Tracker</string>
+    <string name="About_aka">This App is Developed by Akagra Mishra he is a student in D.P.S Greater noida
+.He is  Learning android development,He is a good programmer.He has also created many Websites, softwares,Apps,etc.</string>
+    <string name="prevention">Calling in advance allows your healthcare provider to quickly direct you to the right health facility.
+This protects you, and prevents the spread of viruses and other infections.
+Masks can help prevent the spread of the virus from the person wearing the mask to others.Masks alone do not protect against COVID-19, and should be combined with physical distancing and hand hygiene. Follow the advice provided by your local health authority.    </string>
+    <string name="Text">Although for most people COVID-19 causes only mild illness, it can make some people very ill. More rarely, the disease can be fatal. Older people, and those with pre- existing medical conditions (such as high blood pressure, heart problems or diabetes) appear to be more vulnerable. In Corona Virus Vaccine Cino firm from CHINA is ahead in face 3.</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default App Package action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync App emails periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming App emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>
